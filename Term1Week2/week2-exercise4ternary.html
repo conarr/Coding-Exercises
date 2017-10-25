@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is an example of TERNARY CONDITIONAL OPERATOR where a value is assigned to a variable based on a condition. In my example the variable 'pizza' is a value below 12, the value of the variable 'affordable' will be "You do not have enough money. Go hungry!", otherwise the value will be "You have enough money. Stuff your face!". -->
+
+<p>How many Euro does your favourite pizza cost?</p>
+
+<input id="pizza" value="12" />
+
+<button onclick="myFunction()">Click Me</button>
+
+<p id="ternaryDemo"></p>
+
+<script>
+function myFunction() {
+    var pizza, affordable;
+    pizza = document.getElementById("pizza").value;
+    affordable = (pizza < 12) ? "You do not have enough money. Go hungry!":"You have enough money. Stuff your face!";
+    document.getElementById("ternaryDemo").innerHTML = affordable;
+}
+</script>
+
+</body>
+</html>
