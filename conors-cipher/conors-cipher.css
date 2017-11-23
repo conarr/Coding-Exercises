@@ -1,0 +1,21 @@
+body
+	{
+	font-family: Arial;
+	}
+
+h1
+	{
+	color: blue;
+	}
+
+h3
+	{
+	color: navy;
+	}
+
+#originalText, #numberShift
+	{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	}
