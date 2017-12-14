@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    
+    var money = Number(prompt('Put in money'));
+
+while(money > 0){
+        if(money > 2){
+            console.log('Give 2 Euro');
+            money -= 2;
+        }
+        else if(money >= 1){
+            console.log('Give 1 Euro');
+            money -= 1;
+        }
+        else if(money >= 0.5){
+            console.log('Give 50c');
+            money -= 0.50;
+        }
+        else if(money >= 0.2){
+            console.log('Give 20c');
+            money -= 0.20;
+        }
+        else if(money >= 0.1){
+            console.log('Give 10c');
+            money -= 0.10;
+        break;
+    }
+    }
+    </script>
+</body>
+
+</html>

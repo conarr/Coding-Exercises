@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+.controlPanel {
+    width: 160px;
+    height: 400px;
+    background-color: grey;
+}
+
+
+#goLight {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin: 20px;
+}
+
+#stopLight {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    margin: 20px;
+}
+
+#goLightOn {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    margin: 20px;
+}
+
+#stopLightOn {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin: 20px;
+}
+
+#goLightOn {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    margin: 20px;
+}
+
+#stopLightOn {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin: 20px;
+}
